@@ -1,0 +1,11 @@
+#docker ps -a ##ver contenedores vivos y muertos
+#docker --version  ##ver la version de docker que se esta utilizando
+#docker --info ##te muestra todos los comandos de docker cli
+#docker search ##permite hacer busquedas de imagenes directas en dockerhub
+#docker images ##lista las imagenes existentes en local
+#docker pull imagen ##para descargar imagenes con el ultimo tag 
+#docker run  ## a partir de una imagen me construye un contenedor
+#docker run -p 8080:80 nginx  ##ejemplo para corre un nginx  dockerizado 
+# docker run --name nginx -p 8080:80 -d nginx ## -d para que se quede en segundo plano de cli y --name para nombralo
+#docker run -it ubuntu ##correr un docker en modo iterativo para entrar al contenedor
+#docker exec nombre_contenedor comando  ##ejecutar un comando dentro del contenedor
